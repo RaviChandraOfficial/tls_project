@@ -39,3 +39,10 @@ hasing, signing, key generation alogithms vuntai tls lo
 
 
 
+echo "# tls_project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RaviChandraOfficial/tls_project.git
+git push -u origin main
